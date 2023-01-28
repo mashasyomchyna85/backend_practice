@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/heroes/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "nickname": "Superman",
+    "realName": "Clark Kent",
+    "originDescription": "Even at an early age, the boy showed superhuman abilities, which he decided to use for the benefit of humanity.",
+    "catchPhrase": "You guys haven't learned anything yet...",
+    "powerNames": "super power,flying,super speed"
+}

@@ -1,0 +1,10 @@
+PATCH http://localhost:5000/api/heroes/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nickname": "Batman555",
+    "realName": "Bruce Wayne555",
+    "originDescription": "As a child, after witnessing the murder of his parents, Bruce vowed to devote his life to the fight for justice.",
+    "catchPhrase": "Life gets worse before it gets better.",
+    "powerNames": "Super power222,Flying222,Super speed222"
+}
